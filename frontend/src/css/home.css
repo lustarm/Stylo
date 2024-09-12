@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.homepage-div {
+  width: 80vw;
+  /* Adjust the width as needed */
+  height: 80vh;
+  /* Adjust the height as needed */
+  background-color: #000;
+  /* Black background */
+  border: 5px rgba(255, 255, 255, 0.8);
+  /* White border */
+  border-radius: 20px;
+  /* Rounded corners */
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+  /* Glowing effect */
+  margin: auto;
+  /* Centering the div horizontally */
+  display: flex;
+  flex-direction: column;
+  /* Stack items vertically */
+  align-items: center;
+  /* Center content horizontally */
+  justify-content: center;
+  /* Center content vertically */
+
+  /* Centering the div vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.homepage-div p {
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack buttons vertically */
+  gap: 10px;
+  /* Space between buttons */
+}
+
+.button {
+  font: 1rem Inconsolata, monospace;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  /* Initial glow effect */
+}
+
+.button:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  /* Stronger glow effect on hover */
+}

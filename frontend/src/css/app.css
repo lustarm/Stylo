@@ -1,0 +1,9 @@
+html {
+  background-color: #000
+}
+
+h2 {
+  color: white;
+  font: Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+}
